@@ -5,7 +5,7 @@ const TodoInput = ({ todo, setTodo, addTodo }) => {
         type="text"
         name="todo"
         value={todo}
-        placeholder="Create a new todo"
+        placeholder="Input a new todo"
         onChange={(e) => {
           setTodo(e.target.value);
         }}
